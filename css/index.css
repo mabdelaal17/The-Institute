@@ -484,20 +484,9 @@ audio.hidden-audio {
 }
 
 @media (max-width: 767px) {
-  .landing .container {
-  width: 375px;
-}
-  
   .landing .container::before {
     display: none;
   }
-.landing .container {
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
-  }
-  
  
   .landing .container .landing-left h1 {
     font-size: 50px;
