@@ -484,6 +484,10 @@ audio.hidden-audio {
 }
 
 @media (max-width: 767px) {
+  .landing .container {
+  width: 375px;
+}
+  
   .landing .container::before {
     display: none;
   }
