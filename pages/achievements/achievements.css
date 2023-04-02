@@ -275,7 +275,7 @@ a {
 
 @media (max-width: 991px) {
   .landing .container {
-    width: 900px !important;
+    width: 900px;
   }
 
   .landing .container::before {
@@ -288,9 +288,9 @@ a {
 }
 
 @media (max-width: 767px) {
-    .landing .container {
-  width: 375px !important;
-}
+  .landing .container {
+  width: 375px;
+ }
   
   .landing {
     height: calc(25vh - 75px);
