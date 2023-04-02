@@ -288,6 +288,10 @@ a {
 }
 
 @media (max-width: 767px) {
+    .landing .container {
+  width: 375px;
+}
+  
   .landing {
     height: calc(25vh - 75px);
     position: relative;
